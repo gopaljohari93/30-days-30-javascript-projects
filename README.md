@@ -5,15 +5,15 @@ DOM manipulation, and UI skills.
 
 ## 📅 Projects List
 
-| Day | Project Name        | Live Demo |
-| --- | ------------------- | --------- |
-| 01  | Weather App         | 🔗        |
-| 02  | Todo App            | 🔗        |
-| 03  | Calculator          | 🔗        |
-| 04  | Countdown Timer     | 🔗        |
-| 05  | Password Generator  | 🔗        |
-| ... | ...                 | ...       |
-| 30  | E-commerce Mini App | 🔗        |
+| Day | Project Name        | Live Demo                             |
+| --- | ------------------- | ------------------------------------- |
+| 01  | Weather App         | https://weather-app1-api.netlify.app/ |
+| 02  | Todo App            | 🔗                                    |
+| 03  | Calculator          | 🔗                                    |
+| 04  | Countdown Timer     | 🔗                                    |
+| 05  | Password Generator  | 🔗                                    |
+| ... | ...                 | ...                                   |
+| 30  | E-commerce Mini App | 🔗                                    |
 
 ## 🛠 Tech Stack
 
