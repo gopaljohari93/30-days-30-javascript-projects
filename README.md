@@ -8,7 +8,7 @@ DOM manipulation, and UI skills.
 | Day | Project Name        | Live Demo                             |
 | --- | ------------------- | ------------------------------------- |
 | 01  | Weather App         | https://weather-app1-api.netlify.app/ |
-| 02  | Todo App            | 🔗                                    |
+| 02  | Todo App            | https://todoapp-webs.netlify.app/     |
 | 03  | Calculator          | 🔗                                    |
 | 04  | Countdown Timer     | 🔗                                    |
 | 05  | Password Generator  | 🔗                                    |
