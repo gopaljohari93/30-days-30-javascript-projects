@@ -1,92 +1,153 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins, sans-serif";
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
+
 body {
+  min-height: 100vh;
   background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
 }
+
+/* ================= CARD ================= */
 .card {
-  width: 90%;
+  width: 100%;
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
-  margin: 100px auto 0;
   border-radius: 20px;
-  padding: 40px 35px;
+  padding: 32px 24px;
   text-align: center;
 }
+
+/* ================= SEARCH ================= */
 .search {
-  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 12px;
 }
+
 .search input {
-  border: 0;
-  outline: 0;
-  background: #ebfffc;
-  padding: 10px 25px;
-  height: 60px;
-  border-radius: 30px;
   flex: 1;
-  margin-right: 16px;
-  font-size: 18px;
+  border: none;
+  outline: none;
+  background: #ebfffc;
+  padding: 14px 20px;
+  height: 52px;
+  border-radius: 30px;
+  font-size: 16px;
 }
+
 .search button {
-  border: 0;
-  outline: 0;
+  border: none;
+  outline: none;
   background: #ebfffc;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 52px;
+  height: 52px;
   cursor: pointer;
-}
-.search button img {
-  width: 16px;
-}
-.weather-icon {
-  width: 170px;
-  margin-top: 30px;
-}
-.weather h1 {
-  font-size: 80px;
-  font-weight: 500;
-}
-.weather h2 {
-  font-size: 45px;
-  font-weight: 400;
-  margin-top: -10px;
-}
-.details {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  margin-top: 50px;
+  justify-content: center;
 }
+
+.search button img {
+  width: 18px;
+}
+
+/* ================= WEATHER ================= */
+.weather-icon {
+  width: 140px;
+  margin: 24px auto 12px;
+}
+
+.weather h1 {
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* ================= DETAILS ================= */
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  gap: 12px;
+}
+
 .col {
   display: flex;
   align-items: center;
-  text-align: left;
+  gap: 10px;
 }
+
 .col img {
-  width: 40px;
-  margin-right: 10px;
+  width: 36px;
 }
+
 .humidity,
 .wind {
-  font-size: 28px;
-  margin-top: -6px;
+  font-size: 20px;
 }
+
+/* ================= STATES ================= */
 .weather {
   display: none;
 }
+
 .error {
-  text-align: left;
-  margin-left: 10px;
+  margin-top: 12px;
   font-size: 14px;
-  margin-top: 10px;
+  text-align: left;
   display: none;
+}
+
+/* ================= MOBILE SMALL ================= */
+@media (max-width: 360px) {
+  .weather h1 {
+    font-size: 44px;
+  }
+
+  .weather h2 {
+    font-size: 22px;
+  }
+
+  .details {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ================= TABLET ================= */
+@media (min-width: 600px) {
+  .card {
+    padding: 40px 32px;
+  }
+
+  .weather h1 {
+    font-size: 64px;
+  }
+
+  .weather h2 {
+    font-size: 34px;
+  }
+}
+
+/* ================= DESKTOP ================= */
+@media (min-width: 1024px) {
+  .card {
+    max-width: 500px;
+  }
+
+  .weather-icon {
+    width: 160px;
+  }
 }
