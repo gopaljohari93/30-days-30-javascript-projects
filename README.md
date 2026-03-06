@@ -13,6 +13,9 @@ DOM manipulation, and UI skills.
 | 04  | Password Generator  | https://password-generate-apps.netlify.app/ |
 | 05  | Notes App           | https://notes-apps1.netlify.app/            |
 | 06  | Age Calculator App  | https://age-calculate-apps.netlify.app/     |
+| 07  | Quote Generator     | https://quote-web.netlify.app/              |
+| 08  | QR Code Generator   | https://qor-code.netlify.app/               |
+| 09  | Toast Notification  | https://toast-notification1.netlify.app/    |
 | 30  | E-commerce Mini App | 🔗                                          |
 
 ## 🛠 Tech Stack
