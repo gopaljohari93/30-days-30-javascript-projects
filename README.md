@@ -16,7 +16,10 @@ DOM manipulation, and UI skills.
 | 07  | Quote Generator     | https://quote-web.netlify.app/              |
 | 08  | QR Code Generator   | https://qor-code.netlify.app/               |
 | 09  | Toast Notification  | https://toast-notification1.netlify.app/    |
-| 30  | E-commerce Mini App | 🔗                                          |
+| 10  | Music Player        | https://songs-web.netlify.app/              |
+| 11  | Stopwatch           | https://stopwatch-web1.netlify.app/         |
+| 12  | Calculator          | https://calculator-apps1.netlify.app/       |
+| 30  | E-commerce Mini App | 🔗                                         |
 
 ## 🛠 Tech Stack
 
